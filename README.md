@@ -1,16 +1,45 @@
-# React + Vite
+# Weather-2026 App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a weather application built with React and Vite. It provides current weather information and forecasts.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Display current weather conditions for a specified location.
+- Show weather forecasts for the next few days.
+- Responsive design for mobile and desktop devices.
+- Utilizes environment variables for configuration.
+- Built with React and Vite for fast development and performance.
+- Supports multiple units for temperature (Celsius, Fahrenheit).
+- Uses OpenWeatherMap API for fetching weather data.
+- Includes error handling for API requests and user input.
+- Provides a clean and user-friendly interface for easy navigation.
 
-## React Compiler
+### Screenshot and video snippet of the Application
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Screenshot](/src/assets/mainScreen.png)
 
-## Expanding the ESLint configuration
+To see the application in action, check out the video snippet below - [CLICK HERE](/src/assets/clip.mov)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Coding materials used
+
+### - React / Vite
+
+React Vite is a modern front-end development tool that combines the best features of React and Vite. It provides a fast and efficient development environment for building web applications.
+
+### - OpenWeatherMap API
+
+The OpenWeatherMap API is a service that provides weather data, including current conditions, forecasts, and historical data. It allows developers to access weather information for various locations around the world.
+
+### - Tailwind CSS
+
+Tailwind CSS is a utility-first CSS framework that allows developers to build custom designs quickly and efficiently. It provides a set of pre-defined classes that can be used to style HTML elements without writing custom CSS.
+
+### - Lucide-React (for icons)
+
+Lucide-React is a library that provides a collection of customizable and accessible icons for React applications. It allows developers to easily add icons to their projects without relying on external icon libraries.
+
+### - dotenv (for environment variables)
+
+dotenv is a module that loads environment variables. It is commonly used to manage configuration settings and sensitive information such as API keys in a secure and convenient way.
+
+Developed by [Jagdeep Tiwana](https://github.com/jtiwana-git/Weather-2026-app)
